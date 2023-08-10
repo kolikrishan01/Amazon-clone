@@ -1,0 +1,45 @@
+
+
+.mySwiper{
+    border-radius: 8px;
+    margin: 0 14rem;
+    background-color: #FEBD69;
+  padding: 1.5rem;
+} 
+.img_container{
+    height: 170px;
+    width: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: #fff;
+border-radius: 50%;
+
+}
+.img_container img{
+    height: 80px;
+    width: 80px;
+    transition: transform .2s; 
+}
+.img_container img:hover{
+    transform: scale(1.5);
+}
+
+@media only screen and (max-width: 600px) {
+    .mySwiper{
+        margin: 0;
+        border-radius: 0;
+        margin-bottom: 2.5rem;
+    }
+   
+    .img_container{
+        height: 40px;
+        width: 40px;  
+        margin-right: 2rem;
+    }
+    .img_container img{
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+    }
+}

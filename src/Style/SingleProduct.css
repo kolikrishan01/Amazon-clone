@@ -1,0 +1,96 @@
+.single_container {
+  width: 100%;
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+  background-color: #fff;
+}
+.single_container img {
+  height: 400px;
+  width: 400px;
+  mix-blend-mode: multiply;
+}
+.single_details {
+  width: 40%;
+  text-align: justify;
+}
+.single_price_rate p span {
+  font-weight: 700;
+  margin-right: 10px;
+}
+.button {
+  padding: 12px 30px;
+  border: 1px solid #000;
+  background-color: #000;
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+.button:hover {
+  background-color: transparent;
+  color: #000;
+}
+.return_btn {
+  text-align: center;
+  margin-top: 10rem;
+}
+.return_btn button {
+  padding: 15px 48px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  background-color: #febd69;
+  transition: 0.1s ease-in-out;
+}
+.single_loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.loader {
+  border: 6px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 6px solid #000;
+  width: 70px;
+  height: 70px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .single_details {
+    width: 80%;
+    text-align: center;
+}
+.button {
+  margin-bottom: 1rem;
+}
+.single_container img{
+  width: 300px;
+height: 300px;
+padding-top: 2rem;
+}
+}

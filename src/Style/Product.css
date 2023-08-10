@@ -1,0 +1,20 @@
+.Product_banner2{
+    height: 200px;
+width: auto;
+  margin: 2rem 14rem 0 14rem;
+}
+.Product_banner2 img{
+   height: 100%;
+   width: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+@media only screen and (max-width: 600px){
+  .Product_banner2{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 2.4rem;
+  }
+}

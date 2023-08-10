@@ -1,0 +1,30 @@
+.home_banner{
+    height: 450px;
+    width: 100%;
+}
+.home_banner img{
+   height: 100%;
+   width: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.skeleton_formens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formens{
+   margin-top: 2rem;
+}
+
+@media only screen and (max-width: 600px){
+    .home_banner{
+        height: auto;
+    }
+    .home_banner img {
+       width: 100%;
+       object-fit: contain;
+       margin-bottom: 2rem;
+    }
+}
